@@ -21,10 +21,12 @@ public class DateAddress extends AppCompatActivity {
 
 
         ArrayList<String> addressList = new ArrayList<>();
-        addressList.add("INOX: Jaswant Multiplex, Nagpur");
-        addressList.add("Cinepolis: VR Mall, Nagpur");
-        addressList.add("MovieMax: Eternity, Nagpur");
-        addressList.add("AM Cinema: Manish Nagar, Nagpur");
+        addressList.add("INOX: VR MALL,Surat");
+        addressList.add("Raj imperial,varacha,surat");
+        addressList.add("PVR:Rahul Raj,Surat");
+        addressList.add("Rajahans Multiplex:adajan,Surat ");
+        addressList.add("INOX:Dr world,Surat");
+        addressList.add("INOX:Reliance Mall,surat");
 
         Spinner spinner = findViewById(R.id.address);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.custom_spinner_item, addressList);

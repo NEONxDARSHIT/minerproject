@@ -37,7 +37,8 @@ dependencies {
 
     // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:32.5.0"))
-
+    implementation ("com.google.zxing:core:3.3.0")
+    implementation ("com.journeyapps:zxing-android-embedded:4.3.0")
 
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
